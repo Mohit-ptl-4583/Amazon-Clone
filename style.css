@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
     margin:0;
     font-family: Arial;
@@ -7,9 +14,15 @@
     height:60px;
     background-color: #0f1111;
     color:white;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 .nav-logo{
     height:50px;
@@ -45,8 +58,12 @@
     font-weight: 700;
 }
  .add-icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 /** hovering the both  box of address **/
@@ -63,8 +80,12 @@
 
 /** box 3 **/
 .nav-search{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     background-color: aqua;
     width:620px;
     height: 40px;
@@ -86,9 +107,15 @@
 }
 .search-icon{
     width:45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size:1.2rem;
     background-color: #febd68;
     border-top-right-radius: 4px;
@@ -100,14 +127,22 @@
 }
 /** box4**/
 .country{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
  
 }
 .country-select{
     width:45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size:0.89rem;
     background-color:none;
     border-top-right-radius: 4px;
@@ -137,10 +172,16 @@ span{
 .panel{
     height:40px;
     background-color:#222f3d;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     color:white;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 .panel-ops p {
     display: inline;
@@ -163,18 +204,30 @@ span{
     background-image: url("logo/hero_image.jpg");
     background-size: cover;
     height:390px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     
 }
 .hero-msg{
     background-color: white;
     height:40px;
     color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size:0.88rem;
     width:80%;
     margin-bottom:25px;
@@ -186,10 +239,15 @@ span{
 
 /** SHOP SECTION every box spacing using evenly spacing**/
 .shops-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 /** HERE flex wrap means in a row only 4 image are allow **/    
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;    
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     background-color: #e2e7e6;
 }
 .box{
@@ -225,9 +283,15 @@ span{
     background-color: #37475a;
     color:white;
     height:50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
     font-size: 0.86rem;
 
 }
@@ -235,8 +299,12 @@ span{
     background-color: #222f3d;
     color:white;
     height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 /**evenly space means all side equal space  **/
 /**block means in single line also when need content in one row use display:flex**/
@@ -256,9 +324,15 @@ ul p{
     background-color: #222f3d;
     color:white;
     border-top: 0.5px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .logo1{
     background-image:url("logo/amazon_logo.png");
